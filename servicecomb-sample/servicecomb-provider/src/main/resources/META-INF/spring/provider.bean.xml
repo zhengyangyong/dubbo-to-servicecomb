@@ -25,6 +25,8 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
 		http://www.huawei.com/schema/paas/cse/rpc classpath:META-INF/spring/spring-paas-cse-rpc.xsd">
 
+  <context:component-scan base-package="io.servicecomb.demo.provider"/>
+
   <!-- 以XML配置方式暴露的服务 -->
   <cse:rpc-schema schema-id="anotherServiceEndpoint" implementation="io.servicecomb.demo.provider.AnotherServiceImpl"/>
 </beans>

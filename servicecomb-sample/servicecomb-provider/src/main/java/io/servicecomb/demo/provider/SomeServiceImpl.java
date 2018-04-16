@@ -16,8 +16,9 @@
 
 package io.servicecomb.demo.provider;
 
+import org.apache.servicecomb.provider.pojo.RpcSchema;
+
 import io.servicecomb.demo.api.SomeService;
-import io.servicecomb.provider.pojo.RpcSchema;
 
 @RpcSchema(schemaId = "someServiceEndpoint")
 public class SomeServiceImpl implements SomeService {

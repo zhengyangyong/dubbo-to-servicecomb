@@ -18,12 +18,12 @@ package io.servicecomb.demo.consumer;
 
 import java.util.concurrent.CompletableFuture;
 
+import org.apache.servicecomb.foundation.common.utils.BeanUtils;
+import org.apache.servicecomb.foundation.common.utils.Log4jUtils;
 import org.springframework.context.ApplicationContext;
 
 import io.servicecomb.demo.api.AnotherService;
 import io.servicecomb.demo.api.SomeService;
-import io.servicecomb.foundation.common.utils.BeanUtils;
-import io.servicecomb.foundation.common.utils.Log4jUtils;
 
 public class ConsumerMain {
   public static void main(String[] args) throws Exception {
